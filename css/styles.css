@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+/* Wrapper */
+.wrapper{
+    padding: 1rem;
+}
+/* Utility Classes */
+li{
+    list-style: none;
+}
+a:hover{
+    color: blue;
+    
+}
+
+/* Header */
+.header{
+    width: 100vw;
+    min-height: 25rem;
+    
+}
+ul.google-icons{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+}
+.google-icons img{
+    width: 1.7rem;
+    
+}
+img.google-account-icon{
+    border-radius: 50%;
+}
+ul.google-icons li{
+    padding: 0 0.4rem;
+}
+.header a{
+    text-decoration: none;
+    color: #262626;
+}
+.header a:hover{
+    text-decoration: underline;
+}
