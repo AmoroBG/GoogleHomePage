@@ -5,24 +5,30 @@
 }
 body{
     background-color: #fff;
+    overflow-x: hidden;
+ font-family: Arial, sans-serif;
+    font-size: 1rem;
 }
-/* Wrapper */
-.wrapper{
-    padding: 1rem;
-}
+
 /* Utility Classes */
 li{
     list-style: none;
 }
-a:hover{
-    color: blue;
-    
+a{
+    text-decoration: none;
+    color: #262626;
 }
+a:hover{
+    color: #1d1b1b;
+    text-decoration: underline;
+    cursor: pointer;
+    box-shadow: rgba(0.2, 0.25, 0.3, 0.35);
+    }
 
 /* Header */
 .header{
     width: 100vw;
-    min-height: 25rem;
+    height: 70px;
     
 }
 ul.google-icons{
@@ -45,10 +51,45 @@ img.google-account-icon{
 ul.google-icons li{
     padding: 0 0.4rem;
 }
-.header a{
-    text-decoration: none;
-    color: #262626;
+
+/* Main */
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+.google-text{
+    display: flex;
 }
-.header a:hover{
-    text-decoration: underline;
+.google-languages{
+    display: flex;
+}
+/* Footer */
+.footer{
+    background-color: #80808031;
+    width: 100vw;
+    min-height: 70px;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+}
+.footer-main, .footer-copy{
+    min-height: 35px;
+    padding: 0.5rem;
+    }
+    /* Footer hr */
+    .footer-hr{
+      color: #80808031;
+    }
+.footer-copy{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-copy ul{
+    display: flex;
+}
+.footer-copy ul a{
+    padding: 0.6rem;
 }
