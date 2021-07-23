@@ -60,20 +60,46 @@ ul.google-icons li{
     align-items: center;
     text-align: center;
 } 
+
+/* logo */
+.logo{
+    margin: 1rem;
+}
+/* google-search-box */
+.google-search-box input{
+    width: 35rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    box-shadow: rgba(100, 25, 200, 35);
+    
+}
 .google-text{
     display: flex;
 }
+.google-text input{
+    margin: 1rem 0.5rem;
+    padding: 0.5rem 0.7rem;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
 .google-languages{
     display: flex;
 }
 /* Footer */
 .footer{
-    background-color: #80808031;
-    width: 100vw;
+    background-color: #f2f2f2;
+     width: 100vw;
     min-height: 70px;
     position: absolute;
     bottom: 0;
     padding: 1rem;
+    opacity: 0.6;
+    font-size: 0.9rem;
 }
 .footer-main, .footer-copy{
     min-height: 35px;
@@ -93,3 +119,5 @@ ul.google-icons li{
 .footer-copy ul a{
     padding: 0.6rem;
 }
+
+
