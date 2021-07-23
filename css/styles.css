@@ -86,10 +86,18 @@ ul.google-icons li{
     border: 0;
     cursor: pointer;
 }
-
+/* google-languages */
 .google-languages{
     display: flex;
 }
+.google-languages ul{
+    display: flex;
+}
+.google-languages a{
+    padding: 0 0.2rem;
+    color: blue;
+}
+
 /* Footer */
 .footer{
     background-color: #f2f2f2;
