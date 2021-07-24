@@ -29,6 +29,7 @@ a:hover{
 .header{
     width: 100vw;
     height: 70px;
+    font-size: 0.9rem;
     
 }
 ul.google-icons{
@@ -41,16 +42,37 @@ ul.google-icons{
     text-align: center;
    
 }
-.google-icons img{
-    width: 1.7rem;
-    
+ul.google-icons li{
+    padding: 0.5rem;
 }
+/* google-icons img */
+/* google-apps-icon */
+img.google-apps-icon{
+    width: 1.5rem;
+}
+/* google-account-icon */
+img.google-account-icon{
+    width: 2.1rem;
+}
+
 img.google-account-icon{
     border-radius: 50%;
 }
-ul.google-icons li{
-    padding: 0 0.4rem;
+img.google-apps-icon{
+width: 1.3rem;
 }
+/* google-apps-icon-item */
+.google-apps-icon-item{
+    width: 2.4;
+}
+.google-apps-icon-item{
+border-radius: 50%;
+padding: 2rem;
+}
+.google-apps-icon-item:hover{
+    background-color: #f2f2f2;
+}
+
 
 /* Main */
 .main{
@@ -66,36 +88,53 @@ ul.google-icons li{
     margin: 1rem;
 }
 /* google-search-box */
+.google-search-box{
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    outline: none;
+    margin: 1rem;
+    padding: 0.8rem 1rem;
+}
+.google-search-box:hover{
+    border: 2px solid #ccc;
+}
 .google-search-box input{
     width: 35rem;
-    margin: 1rem;
-    padding: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 25px;
+    padding:  0.2rem 0.5rem;
+    border: none;
     outline: none;
-    box-shadow: rgba(100, 25, 200, 35);
     
+}
+/* fa-search */
+.fa-search{
+    color: #ccc;
+}
+/* fa-microphone */
+.fa-microphone{
+    color: #4285F4;
 }
 .google-text{
     display: flex;
 }
 .google-text input{
     margin: 1rem 0.5rem;
-    padding: 0.5rem 0.7rem;
+    padding:  0.7rem 1rem;
     border-radius: 5px;
     border: 0;
     cursor: pointer;
+    background-color: #f8f9fa;
 }
 /* google-languages */
 .google-languages{
     display: flex;
+    font-size: 0.8rem;
 }
 .google-languages ul{
     display: flex;
 }
 .google-languages a{
     padding: 0 0.2rem;
-    color: blue;
+    color: #1a0db3;
 }
 
 /* Footer */
