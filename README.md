@@ -1,2 +1,2 @@
-This mini-project is to deconstruct and rebuild the google home page
+This is a mini-project to replicate the google home page
  
